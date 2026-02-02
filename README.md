@@ -34,13 +34,13 @@ DataScienceDashboard
 
 ## 🚀 Getting Started
 
-### Prerequisites
+**Prerequisites**
 - Python 3.13.*
 - Node.js 24.13.0
 - PostgreSQL 14+
 - Git
 
-### Installation
+**Installation**
 1. Clone the repository:
 ```bash
 git clone https://github.com/zhang196937-ops/DataScienceDashboard
@@ -55,17 +55,16 @@ pip install -r requirements.txt
 cd frontend
 npm install
 ```
-
-##📝 License
+## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details#.
-##👨‍💻 Author
+## 👨‍💻 Author
 Wei ZHANG - [@zhang196937-ops](https://github.com/zhang196937-ops)
-##🤝 Contributing
+## 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ---
 
-### ⚠️ Important Notes:
+## ⚠️ Important Notes:
 1. **Replace placeholders** before committing:
    - `YOUR_USERNAME` → your actual GitHub username
    - `Your Name` → your real name
