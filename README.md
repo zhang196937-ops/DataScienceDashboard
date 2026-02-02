@@ -30,7 +30,7 @@ DataScienceDashboard
 ├── .gitignore
 ├── README.md
 └── LICENSE
-````
+```
 
 ## 🚀 Getting Started
 
@@ -46,12 +46,16 @@ DataScienceDashboard
 git clone https://github.com/zhang196937-ops/DataScienceDashboard
 cd DataScienceDashboard
 **Set up backend:**
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 **Set up frontend:**
+```bash
 cd frontend
 npm install
+```
+
 ##📝 License
 This project is licensed under the MIT License - see the LICENSE file for details#.
 ##👨‍💻 Author
