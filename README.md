@@ -17,7 +17,7 @@ A full-stack web application built with Django (backend), React (frontend), and 
 - **Visualization:** Chart.js
 
 ## 📁 Project Structure
-DataScienceDashboard/
+DataScienceDashboard   
 ├── backend/ # Django backend
 │ ├── datasci_dashboard/ # Django project
 │ ├── dashboard/ # Django app
