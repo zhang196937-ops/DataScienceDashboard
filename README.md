@@ -30,8 +30,7 @@ DataScienceDashboard
 ├── .gitignore
 ├── README.md
 └── LICENSE
-
-
+````
 
 ## 🚀 Getting Started
 
