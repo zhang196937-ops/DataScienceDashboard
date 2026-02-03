@@ -11,9 +11,10 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 
 from pathlib import Path
-
+import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = BASE_DIR.parent # Add this line (points to project root foler DataScienceDashboard)
 
 
 # Quick-start development settings - unsuitable for production
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'dashboard', # it is nesseary to add ',' at the end.
 ]
 
 MIDDLEWARE = [
@@ -114,4 +116,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(PROJECT_ROOT,'static') # point to DataScienceDashbord\static
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,'static_dev'),#optinoal:for dev-only static inside backed.
+]
+# Media files (User-uploaded files)
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(PROJECT_ROOT, 'media')
+"""
+BASE_DIR: C:/users/Utilisateur/DataScienceDashboard/backend --folder app
+PROJECT_ROOT: C:/users/Utilisateur/DataScienceDashboard
+MEDIA_ROOT: C:/users/Utilisateur/DataScienceDashboard/media
+STATIC_ROOT: C:users/Utilisateur/DataScienceDashboard/static
+"""
