@@ -2,16 +2,13 @@
 A full-stack web application built with Django (backend), React (frontend), and PostgreSQL (database) for data science learning and portfolio projects.
 
 ## 🎯 Project Goals
-- Learn Django framework for backend development
-- Master React for frontend development
-- Understand REST API design and implementation
 - Practice data science integration with web applications
 - Build a portfolio-worthy project
 
 ## 🛠️ Tech Stack
-- **Backend:** Django 6.0.1 + Django REST Framework
+- **Backend:** Django 6.0.1 + Django REST Framework 3.16.1
 - **Frontend:** React 19.2.0
-- **Database:** PostgreSQL 14+
+- **Database:** PostgreSQL 17.6
 - **Authentication:** Django Authentication + JWT
 - **Data Science:** Pandas, NumPy, Scikit-learn
 - **Visualization:** Chart.js
@@ -37,7 +34,7 @@ DataScienceDashboard
 **Prerequisites**
 - Python 3.13.*
 - Node.js 24.13.0
-- PostgreSQL 14+
+- PostgreSQL 17.6
 - Git
 
 **Installation**
