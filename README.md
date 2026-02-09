@@ -1,5 +1,5 @@
 # DataScienceDashboard
-A full-stack web application built with Django (backend), React (frontend, Typescript), and PostgreSQL (database) for data science learning and portfolio projects.
+A full-stack web application built with Django (backend), React/TypeScript (frontend), and PostgreSQL (database) for data science learning and portfolio projects.
 
 ## 🎯 Project Goals
 - Practice data science integration with web applications
